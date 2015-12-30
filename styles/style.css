@@ -1,0 +1,141 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: left;
+	float: left;
+}
+
+html {
+	background-color: #BBFF00;	
+}
+
+body {
+	padding: 20px 50px 0 50px;
+	background-color: #FF9C00;
+	margin: 10px 100px;
+	width: 1050px;
+}
+
+h1 {
+	font-weight: bold;
+    font-size: 7em;
+	line-height: 222px;
+	width: 909px;
+	height: 222px;
+	text-align: center;
+	padding-right: 140px;
+	margin: 20px 0;
+	background: url('../assets/logo.png') no-repeat 930px center;
+	background-color: #157FFF;
+	text-shadow: 4px 4px 4px #fff;
+}
+
+h2 {
+	font-weight: bold;
+    font-size: 2em;
+	width: 647px;
+	text-align: center;
+	background-color: #FF00B2;
+	padding: 15px;
+	margin: 10px 0;
+	-moz-box-shadow: 5px 5px 2px #888;
+	-webkit-box-shadow: 5px 5px 2px #888;
+	box-shadow: 5px 5px 2px #888;
+	text-shadow: 2px 2px 2px #fff;
+}
+
+nav {
+	width: 350px;
+	background-color: #FDFFFC;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+
+nav a {
+	width: 306px;
+	height: 44px;
+	line-height: 44px;
+	clear: both;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 10px 10px 10px 30px;
+	background: url('../assets/logo_menu.png') no-repeat 5px center;
+	border: solid 2px #011627;
+	border-top: none;
+	background-color: #EEEEEE;
+	color: #000000;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav a.first {
+	border-top: solid 2px #011627;
+}
+
+nav a.double {
+	line-height: 22px;
+}
+
+nav a.active {
+	border-right: none;
+    width: 308px;
+	background-color: #FDFFFC;
+}
+
+section.sectionBlock {
+	width: 677px;
+	height: 374px;
+	background-color: #FDFFFC;
+	padding: 10px;
+	border: solid 2px #011627;
+	border-left: none;
+	display: none;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+
+section.sectionBlock.active {
+	display: block;
+}
+
+footer {
+	margin: 20px 0;
+}
+
+input {
+	font-size: 2em;
+	width: 673px;
+	margin: 20px 0 0 0;
+}
+
+form a {
+	clear: both;
+	font-size: 2em;
+	background-color: #BBFF00;	
+	padding: 20px 30px;
+	color: #000000;
+	width: 200px;
+	text-align: center;
+	margin: 10px 0 0 210px;
+	text-shadow: 2px 2px 2px #fff;
+}
+
+form a:hover {
+	font-weight: bold;	
+}
+
+.shadow {
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
